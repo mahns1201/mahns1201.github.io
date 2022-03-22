@@ -1,17 +1,10 @@
 <template>
-  <div class="adjustment">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <div class="adjustment"></div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld,
-  },
 };
 </script>
 

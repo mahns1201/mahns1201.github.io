@@ -42,6 +42,13 @@
   }
 }
 
+// 1024px ~
+@mixin min-xl {
+  @media (min-width: #{$xl}) {
+    @content;
+  }
+}
+
 // 1728px ~
 @mixin xxl {
   @media (min-width: #{$xxl}) {

@@ -5,8 +5,8 @@ module.exports = {
   css: {
     loaderOptions: {
       scss: {
-        data: `
-            @import "@/styles/style.scss";
+        additionalData: `
+            @import "@/styles/main.scss";
             `,
       },
     },

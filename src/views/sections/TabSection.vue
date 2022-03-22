@@ -1,8 +1,24 @@
 <template>
   <nav class="tab">
-    <select name="tab" id="tab">
+    <select v-model="tab" name="tab" id="tab">
       <option value="skills">Skills</option>
       <option value="works">Works</option>
     </select>
   </nav>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      tab: 'skills',
+    };
+  },
+
+  watch: {
+    tab() {
+      this.$store.commit('changeTab', this.tab);
+    },
+  },
+};
+</script>

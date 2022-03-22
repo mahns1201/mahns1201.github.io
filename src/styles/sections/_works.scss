@@ -1,0 +1,25 @@
+@import '@/styles/_variables';
+@import '@/styles/mixins/_layout';
+
+.works {
+  display: grid;
+  grid-template-rows: minmax(12rem, 25vh);
+  grid-auto-rows: minmax(12rem, 25vh);
+  gap: $gap 0.25rem;
+
+  @include sm {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  @include md {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include lg {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include min-xl {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

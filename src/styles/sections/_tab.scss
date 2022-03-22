@@ -1,0 +1,14 @@
+@import '../variables';
+
+.tab {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: $gap;
+
+  select {
+    width: 6rem;
+    padding: 0.25rem;
+    color: $white;
+    background-color: $black;
+  }
+}

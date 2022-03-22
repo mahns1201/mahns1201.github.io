@@ -2,8 +2,10 @@
 @import './variables';
 @import './adjustment';
 
-// pages
-@import './pages/_profile';
+// sections
+
+@import './sections/_profile';
+@import './sections/_tab.scss';
 
 html {
   background-color: $black;

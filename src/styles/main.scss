@@ -3,18 +3,15 @@
 @import './adjustment';
 
 // sections
-
 @import './sections/_profile';
-@import './sections/_tab.scss';
-
-html {
-  background-color: $black;
-}
+@import './sections/_tab';
+@import './sections/_works';
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $white;
+  background-color: $black;
   min-height: 100vh;
 }

@@ -1,7 +1,10 @@
 @import './mixins/layout';
+@import '@/styles/_variables';
 
 .adjustment {
   margin: auto;
+  padding-top: $gap;
+
   @include sm {
     width: 90%;
   }

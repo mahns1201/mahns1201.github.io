@@ -42,7 +42,7 @@
   }
 }
 
-// 1024px ~
+// 1440px ~
 @mixin min-xl {
   @media (min-width: #{$xl}) {
     @content;

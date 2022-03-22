@@ -8,7 +8,7 @@
     <tab-section />
   </section>
 
-  <section class="works">
+  <section>
     <skill-section v-if="tab === 'skills'" />
     <works-section v-else-if="tab === 'works'" />
   </section>

@@ -1,5 +1,5 @@
 <template>
-  <div class="profile test">
+  <div class="profile">
     <img src="https://source.unsplash.com/random/250x250" alt="avatar" />
     <div>
       <div>Mahns</div>
@@ -7,7 +7,3 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {};
-</script>

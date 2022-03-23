@@ -1,9 +1,27 @@
 <template>
-  <div class="works">works</div>
+  <article class="works">
+    <works-card :file-name="test" />
+    <works-card :file-name="test" />
+    <works-card :file-name="test" />
+    <works-card :file-name="test" />
+    <works-card :file-name="test" />
+  </article>
 </template>
 
 <script>
-export default {};
+import WorksCard from '@/components/WorksCard.vue';
+
+export default {
+  data() {
+    return {
+      test: 'youtube.jpeg',
+    };
+  },
+
+  components: {
+    WorksCard,
+  },
+};
 </script>
 
 <style></style>

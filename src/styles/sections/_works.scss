@@ -5,7 +5,7 @@
   display: grid;
   grid-template-rows: minmax(12rem, 25vh);
   grid-auto-rows: minmax(12rem, 25vh);
-  gap: $gap 0.25rem;
+  gap: $gap 0.5rem;
 
   @include sm {
     grid-template-columns: repeat(1, 1fr);

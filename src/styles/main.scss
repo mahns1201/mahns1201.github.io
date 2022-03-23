@@ -7,6 +7,9 @@
 @import './sections/_tab';
 @import './sections/_works';
 
+// components
+@import './components/card';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

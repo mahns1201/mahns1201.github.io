@@ -1,2 +1,30 @@
-// .card__works {
-// }
+.card__works {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    &:hover {
+      opacity: 25%;
+    }
+  }
+
+  &:hover {
+    .card__works__cover {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .card__works__cover {
+    display: none;
+  }
+}

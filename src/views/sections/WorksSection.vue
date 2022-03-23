@@ -1,7 +1,7 @@
 <template>
   <div class="works">
-    <article v-for="fileName in fileNames" :key="fileName">
-      <works-card :file-name="fileName" />
+    <article v-for="(cardInfo, index) in cardInfos" :key="index">
+      <works-card :card-info="cardInfo" />
     </article>
   </div>
 </template>
@@ -12,7 +12,22 @@ import WorksCard from '@/components/WorksCard.vue';
 export default {
   data() {
     return {
-      fileNames: ['youtube.png', 'gardening.jpeg', 'ponding.jpeg'],
+      cardInfos: [
+        {
+          fileName: 'youtube.png',
+          title: 'Youtube',
+        },
+
+        {
+          fileName: 'gardening.jpeg',
+          title: 'Smart Gardening',
+        },
+
+        {
+          fileName: 'ponding.jpeg',
+          title: 'Ponding Depth',
+        },
+      ],
     };
   },
 

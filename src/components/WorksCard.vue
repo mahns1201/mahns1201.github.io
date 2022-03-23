@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <img :src="require(`@/assets/thumbnail/${fileName}`)" alt="works" />
-  </div>
+  <img :src="require(`@/assets/thumbnail/${fileName}`)" alt="works" />
 </template>
 
 <script>
@@ -15,9 +13,9 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 img {
-  max-width: 100%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }

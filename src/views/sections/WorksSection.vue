@@ -1,11 +1,9 @@
 <template>
-  <article class="works">
-    <works-card :file-name="test" />
-    <works-card :file-name="test" />
-    <works-card :file-name="test" />
-    <works-card :file-name="test" />
-    <works-card :file-name="test" />
-  </article>
+  <div class="works">
+    <article v-for="fileName in fileNames" :key="fileName">
+      <works-card :file-name="fileName" />
+    </article>
+  </div>
 </template>
 
 <script>
@@ -14,7 +12,7 @@ import WorksCard from '@/components/WorksCard.vue';
 export default {
   data() {
     return {
-      test: 'youtube.jpeg',
+      fileNames: ['youtube.png', 'gardening.jpeg', 'ponding.jpeg'],
     };
   },
 

@@ -1,4 +1,5 @@
 <template>
+  <!-- profile -->
   <section>
     <profile-section />
   </section>
@@ -8,6 +9,7 @@
     <tab-section />
   </section>
 
+  <!-- works -->
   <section>
     <skill-section v-if="tab === 'skills'" />
     <works-section v-else-if="tab === 'works'" />

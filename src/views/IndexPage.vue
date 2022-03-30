@@ -11,6 +11,7 @@
 
   <!-- works -->
   <section>
+    <history-section v-if="tab === 'history'" />
     <skill-section v-if="tab === 'skills'" />
     <works-section v-else-if="tab === 'works'" />
   </section>
@@ -19,6 +20,7 @@
 <script>
 import ProfileSection from '@/views/sections/ProfileSection.vue';
 import TabSection from '@/views/sections/TabSection.vue';
+import HistorySection from '@/views/sections/HistorySection.vue';
 import SkillSection from '@/views/sections/SkillSection.vue';
 import WorksSection from '@/views/sections/WorksSection.vue';
 
@@ -31,6 +33,7 @@ export default {
   components: {
     ProfileSection,
     TabSection,
+    HistorySection,
     SkillSection,
     WorksSection,
   },

@@ -4,7 +4,7 @@
       :src="require(`@/assets/thumbnail/${cardInfo.fileName}`)"
       alt="works"
     />
-    <div class="card__works__cover">{{ cardInfo.title }}</div>
+    <div class="card__works__title">{{ cardInfo.title }}</div>
   </div>
 </template>
 

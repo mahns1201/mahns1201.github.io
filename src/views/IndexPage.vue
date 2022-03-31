@@ -12,7 +12,7 @@
   <!-- works -->
   <section>
     <history-section v-if="tab === 'history'" />
-    <skill-section v-if="tab === 'skills'" />
+    <skill-section v-else-if="tab === 'skills'" />
     <works-section v-else-if="tab === 'works'" />
   </section>
 </template>
@@ -27,7 +27,7 @@ import WorksSection from '@/views/sections/WorksSection.vue';
 export default {
   data() {
     return {
-      tab: 'skills',
+      tab: 'history',
     };
   },
   components: {

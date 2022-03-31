@@ -21,3 +21,7 @@
     width: 1440px;
   }
 }
+
+.adjustment__height {
+  min-height: calc(100vh - $gap);
+}

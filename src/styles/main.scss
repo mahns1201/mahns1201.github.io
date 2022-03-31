@@ -6,6 +6,7 @@
 @import '@/styles/sections/_profile';
 @import '@/styles/sections/_tab';
 @import '@/styles/sections/_works';
+@import '@/styles/sections/_footer';
 
 // components
 @import '@/styles/components/card';
@@ -13,11 +14,10 @@
 // font
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-#app {
+body {
   font-family: 'Roboto Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $white;
   background-color: $black;
-  min-height: 100vh;
 }

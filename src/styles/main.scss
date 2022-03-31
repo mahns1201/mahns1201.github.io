@@ -1,14 +1,14 @@
-@import './_reset';
-@import './variables';
-@import './adjustment';
+@import '@/styles/common/_reset';
+@import '@/styles/common/_variables';
+@import '@/styles/common/_adjustment';
 
 // sections
-@import './sections/_profile';
-@import './sections/_tab';
-@import './sections/_works';
+@import '@/styles/sections/_profile';
+@import '@/styles/sections/_tab';
+@import '@/styles/sections/_works';
 
 // components
-@import './components/card';
+@import '@/styles/components/card';
 
 // font
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');

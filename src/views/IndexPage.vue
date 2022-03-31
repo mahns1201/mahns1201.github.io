@@ -1,8 +1,8 @@
 <template>
   <!-- profile -->
-  <section>
+  <!-- <section>
     <profile-section />
-  </section>
+  </section> -->
 
   <!-- tab -->
   <section>
@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import ProfileSection from '@/views/sections/ProfileSection.vue';
+// import ProfileSection from '@/views/sections/ProfileSection.vue';
 import TabSection from '@/views/sections/TabSection.vue';
 import HistorySection from '@/views/sections/HistorySection.vue';
 import SkillSection from '@/views/sections/SkillSection.vue';
@@ -31,7 +31,7 @@ export default {
     };
   },
   components: {
-    ProfileSection,
+    // ProfileSection,
     TabSection,
     HistorySection,
     SkillSection,

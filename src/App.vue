@@ -1,4 +1,7 @@
 <template>
+  <div>
+    <profile-section />
+  </div>
   <div class="adjustment adjustment__height">
     <index-page />
   </div>
@@ -8,6 +11,7 @@
 </template>
 
 <script>
+import ProfileSection from '@/views/sections/ProfileSection.vue';
 import IndexPage from '@/views/IndexPage';
 import FooterSection from '@/views/sections/FooterSection.vue';
 
@@ -15,6 +19,7 @@ export default {
   name: 'App',
 
   components: {
+    ProfileSection,
     IndexPage,
     FooterSection,
   },

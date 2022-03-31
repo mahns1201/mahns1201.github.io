@@ -12,7 +12,7 @@
 export default {
   data() {
     return {
-      tab: 'skills',
+      tab: 'history',
     };
   },
 

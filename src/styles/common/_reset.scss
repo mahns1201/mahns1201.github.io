@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import '@/styles/common/_variables';
+
 html,
 body,
 div,
@@ -126,4 +128,10 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+// custom
+a {
+  color: $white;
+  text-decoration: none;
 }

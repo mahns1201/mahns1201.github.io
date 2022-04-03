@@ -1,7 +1,9 @@
 <template>
   <div class="works">
     <article v-for="(cardInfo, index) in cardInfos" :key="index">
-      <works-card :card-info="cardInfo" />
+      <router-link :to="{ path: '/works', query: { title: cardInfo.link } }">
+        <works-card :card-info="cardInfo" />
+      </router-link>
     </article>
   </div>
 </template>
@@ -16,16 +18,19 @@ export default {
         {
           fileName: 'youtube.png',
           title: 'Youtube',
+          link: 'youtube',
         },
 
         {
           fileName: 'gardening.jpeg',
           title: 'Smart Gardening',
+          link: 'gardening',
         },
 
         {
           fileName: 'ponding.jpeg',
           title: 'Ponding Depth',
+          link: 'ponding',
         },
       ],
     };
@@ -33,6 +38,12 @@ export default {
 
   components: {
     WorksCard,
+  },
+
+  methods: {
+    // onWorksDetail(path) {
+    //   this.$router.push(`works/${path}`);
+    // },
   },
 };
 </script>

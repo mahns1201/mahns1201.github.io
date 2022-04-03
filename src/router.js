@@ -7,6 +7,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName "IndexPage" */ '@/views/IndexPage.vue'),
   },
+  {
+    path: '/works',
+    name: 'WorksDetail',
+    component: () =>
+      import(/* webpackChunkName "IndexPage" */ '@/views/WorksDetail.vue'),
+  },
 ];
 
 const router = createRouter({

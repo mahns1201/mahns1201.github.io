@@ -12,7 +12,7 @@
 export default {
   data() {
     return {
-      tab: 'history',
+      tab: '',
     };
   },
 
@@ -20,6 +20,11 @@ export default {
     tab() {
       this.$store.commit('changeTab', this.tab);
     },
+  },
+
+  created() {
+    this.tab = this.$store.state.tab;
+    console.log('index-page: ', this.$store.state);
   },
 };
 </script>

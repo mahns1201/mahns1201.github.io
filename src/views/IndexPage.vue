@@ -27,9 +27,10 @@ import WorksSection from '@/views/sections/WorksSection.vue';
 export default {
   data() {
     return {
-      tab: 'history',
+      tab: '',
     };
   },
+
   components: {
     // ProfileSection,
     TabSection,
@@ -45,9 +46,14 @@ export default {
   },
 
   watch: {
-    changeTab(value) {
-      this.tab = value;
+    changeTab(currentTab) {
+      this.tab = currentTab;
     },
+  },
+
+  created() {
+    this.tab = this.$store.state.tab;
+    console.log('index-page: ', this.$store.state);
   },
 };
 </script>

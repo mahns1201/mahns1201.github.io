@@ -1,5 +1,8 @@
 <template>
-  <div v-if="title === 'youtube'">
+  <div>
+    <works-detail-mixin :title="title" />
+  </div>
+  <!-- <div v-if="title === 'youtube'">
     <youtube-page />
   </div>
   <div v-else-if="title === 'gardening'">
@@ -7,13 +10,14 @@
   </div>
   <div v-else-if="title === 'ponding'">
     <ponding-page />
-  </div>
+  </div> -->
 </template>
 
 <script>
-import YoutubePage from '@/views/works/YoutubePage.vue';
-import GardeningPage from '@/views/works/GardeningPage.vue';
-import PondingPage from '@/views/works/PondingPage.vue';
+// import YoutubePage from '@/views/works/YoutubePage.vue';
+// import GardeningPage from '@/views/works/GardeningPage.vue';
+// import PondingPage from '@/views/works/PondingPage.vue';
+import WorksDetailMixin from '@/views/mixins/WorksDetailMixin.vue';
 
 export default {
   data() {
@@ -23,9 +27,10 @@ export default {
   },
 
   components: {
-    YoutubePage,
-    GardeningPage,
-    PondingPage,
+    // YoutubePage,
+    // GardeningPage,
+    // PondingPage,
+    WorksDetailMixin,
   },
 
   created() {

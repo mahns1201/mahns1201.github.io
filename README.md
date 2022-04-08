@@ -1,24 +1,14 @@
 # portfolio
 
-## Project setup
-```
-npm install
-```
+- front-end: vue3(js), vue-router, vuex, scss
+- deploy: github-pages
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 구성
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### History
+### Skills Sets
+### Works
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+디자인 고민
+- 프로젝트 전체를 캐로셀로 만들자
+- 책 형식으로 넘기기

@@ -1,19 +1,19 @@
 <template>
   <div>
-    <profile-section />
-  </div>
-  <div class="adjustment adjustment__height">
-    <!-- <index-page /> -->
-    <router-view />
-  </div>
-  <div>
-    <footer-section />
+    <div>
+      <profile-section />
+    </div>
+    <div class="adjustment adjustment__height">
+      <router-view />
+    </div>
+    <div>
+      <footer-section></footer-section>
+    </div>
   </div>
 </template>
 
 <script>
 import ProfileSection from '@/views/sections/ProfileSection.vue';
-// import IndexPage from '@/views/IndexPage';
 import FooterSection from '@/views/sections/FooterSection.vue';
 
 export default {
@@ -21,7 +21,6 @@ export default {
 
   components: {
     ProfileSection,
-    // IndexPage,
     FooterSection,
   },
 };

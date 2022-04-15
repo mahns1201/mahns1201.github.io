@@ -53,7 +53,6 @@ export default {
 
   created() {
     this.tab = this.$store.state.tab;
-    console.log('index-page: ', this.$store.state);
   },
 };
 </script>

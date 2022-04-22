@@ -1,28 +1,17 @@
 <template>
-  <!-- profile -->
-  <!-- <section>
-    <profile-section />
-  </section> -->
-
-  <!-- tab -->
-  <section>
-    <tab-section />
-  </section>
-
-  <!-- works -->
-  <section>
-    <history-section v-if="tab === 'history'" />
-    <skill-section v-else-if="tab === 'skills'" />
-    <works-section v-else-if="tab === 'works'" />
-  </section>
+  <main-carousel></main-carousel>
 </template>
 
 <script>
-// import ProfileSection from '@/views/sections/ProfileSection.vue';
-import TabSection from '@/views/sections/TabSection.vue';
-import HistorySection from '@/views/sections/HistorySection.vue';
-import SkillSection from '@/views/sections/SkillSection.vue';
-import WorksSection from '@/views/sections/WorksSection.vue';
+// carousel
+import MainCarousel from '@/components/carousel/MainCarousel.vue';
+
+// pages
+import ProfilePage from '@/views/pages/ProfilePage.vue';
+import HistoryPage from '@/views/pages/HistoryPage.vue';
+import SkillPage from '@/views/pages/SkillPage.vue';
+import WorksPage from '@/views/pages/WorksPage.vue';
+import AwardPage from '@/views/pages/AwardPage.vue';
 
 export default {
   data() {
@@ -32,11 +21,12 @@ export default {
   },
 
   components: {
-    // ProfileSection,
-    TabSection,
-    HistorySection,
-    SkillSection,
-    WorksSection,
+    MainCarousel,
+    ProfilePage,
+    HistoryPage,
+    SkillPage,
+    WorksPage,
+    AwardPage,
   },
 
   computed: {

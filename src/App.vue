@@ -2,7 +2,7 @@
   <!-- 라우터 대신 캐러셀이 들어간다. -->
   <!-- 라우터 안 쓰는 것으로 결정되면 npm uninstall 하자. -->
   <div>
-    <main-carousel />
+    <main-carousel class="carousel" />
   </div>
 </template>
 
@@ -16,4 +16,6 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+@import '@/styles/main';
+</style>

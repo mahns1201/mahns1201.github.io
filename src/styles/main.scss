@@ -1,0 +1,16 @@
+// common
+@import '@/styles/common/_reset';
+@import '@/styles/common/_variables';
+@import '@/styles/common/_adjustment';
+
+// font
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $white;
+  min-width: 12.5rem;
+  background-color: $black;
+}

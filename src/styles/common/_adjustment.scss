@@ -1,0 +1,27 @@
+@import '@/styles/common/_layout';
+@import '@/styles/common/_variables';
+
+.adjustment {
+  margin: auto;
+  padding-top: $gap;
+
+  @include sm {
+    width: 90%;
+  }
+
+  @include min-md {
+    width: 80%;
+  }
+
+  @include xl {
+    width: calc(100% - 288px);
+  }
+
+  @include xxl {
+    width: 1440px;
+  }
+}
+
+.adjustment__height {
+  min-height: calc(50vh);
+}

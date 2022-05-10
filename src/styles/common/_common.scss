@@ -1,0 +1,6 @@
+$tags-height: 1.5rem;
+
+.img__tags {
+  height: $tags-height;
+  border-radius: calc($tags-height / 2);
+}

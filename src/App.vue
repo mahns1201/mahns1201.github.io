@@ -10,11 +10,7 @@
     <hr />
 
     <section>
-      <h2>Side Project</h2>
-    </section>
-
-    <section>
-      <h2>Awards</h2>
+      <h2>Other Experiences</h2>
     </section>
   </main>
 </template>

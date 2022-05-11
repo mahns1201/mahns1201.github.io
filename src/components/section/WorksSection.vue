@@ -3,11 +3,16 @@
     <h2>Work Experiences</h2>
 
     <div>
-      <h5>Hobor Intelligence</h5>
+      <h5>
+        Hobor Intelligence, <span class="font__gray">2021. 05. 10. ~ing</span>
+      </h5>
     </div>
 
     <div>
-      <h5>Gyeongsang National University</h5>
+      <h5>
+        Gyeongsang National University,
+        <span class="font__gray">2015. 02. ~ 2021. 08.</span>
+      </h5>
       <div class="wroks__item">
         <div class="works__container">
           <img src="@/assets/thumbnail/gardening.jpeg" alt="gardening" />

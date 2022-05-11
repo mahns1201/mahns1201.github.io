@@ -6,6 +6,8 @@ $tags-height: 1.5rem;
   height: $tags-height;
   border-radius: calc($tags-height / 2);
   margin-right: 0.25rem;
+  box-shadow: 0 4px 6px -1px rgb(26 26 26 / 0.1),
+    0 2px 4px -2px rgb(26 26 26 / 0.1);
 }
 
 a {

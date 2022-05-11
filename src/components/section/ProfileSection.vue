@@ -3,6 +3,8 @@
     <div class="profile__container">
       <img src="@/assets/common/minhyeok.jpg" alt="profile" />
     </div>
+
+    <div class="profile__banner"></div>
     <div class="profile__description">
       <div class="devide">
         <h4>Contact</h4>
@@ -43,33 +45,33 @@
         <div>
           <h5>FRONT-END</h5>
           <img
-            src="https://img.shields.io/badge/-HTML5-red?style=flat&logo=html5&logoColor=ffffff"
+            src="https://img.shields.io/badge/-HTML5-white?style=flat&logo=html5&logoColor=ff0000"
             alt="HTML5"
             class="img__tags"
           />
           <img
-            src="https://img.shields.io/badge/-CSS3-blue?style=flat&logo=css3"
+            src="https://img.shields.io/badge/-CSS3-white?style=flat&logo=css3&logoColor=0374B5"
             alt="CSS3"
             class="img__tags"
           />
           <img
-            src="https://img.shields.io/badge/-JavaScript-yellow?style=flat&logo=javascript"
+            src="https://img.shields.io/badge/-JavaScript-white?style=flat&logo=javascript"
             alt="JavaScript"
             class="img__tags"
           />
           <img
-            src="https://img.shields.io/badge/-SCSS-ff69b4?style=flat&logo=sass&logoColor=ffffff"
+            src="https://img.shields.io/badge/-SCSS-white?style=flat&logo=sass&logoColor=ff69b4"
             alt="SCSS"
             class="img__tags"
           />
           <img
-            src="https://img.shields.io/badge/-Tailwind-blue?style=flat&logo=TailwindCSS"
+            src="https://img.shields.io/badge/-Tailwind-white?style=flat&logo=TailwindCSS"
             alt="Tailwind"
             class="img__tags"
           />
 
           <img
-            src="https://img.shields.io/badge/-Vue.js-green?style=flat&logo=vue.js"
+            src="https://img.shields.io/badge/-Vue.js-white?style=flat&logo=vue.js"
             alt="Vue"
             class="img__tags"
           />
@@ -83,17 +85,17 @@
             class="img__tags"
           />
           <img
-            src="https://img.shields.io/badge/-Spring-green?style=flat&logo=spring&logoColor=ffffff"
+            src="https://img.shields.io/badge/-Spring-white?style=flat&logo=spring"
             alt="Spring"
             class="img__tags"
           />
           <img
-            src="https://img.shields.io/badge/-Node.js-green?style=flat&logo=node.js&logoColor=ffffff"
+            src="https://img.shields.io/badge/-Node.js-white?style=flat&logo=node.js"
             alt="Node"
             class="img__tags"
           />
           <img
-            src="https://img.shields.io/badge/-Serverless-red?style=flat&logo=serverless"
+            src="https://img.shields.io/badge/-Serverless-white?style=flat&logo=serverless"
             alt="Serverless"
             class="img__tags"
           />

@@ -42,9 +42,6 @@
             ><span>https://velog.io/@mahns</span></a
           >
         </div>
-        <div>
-          <label class="label">Email</label><span>mahns1201@gmail.com</span>
-        </div>
       </div>
 
       <div class="devide">

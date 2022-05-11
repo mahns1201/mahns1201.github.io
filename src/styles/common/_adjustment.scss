@@ -22,6 +22,12 @@
   }
 }
 
-.adjustment__height {
-  min-height: calc(50vh);
+.adjustment-gap {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+
+.section-border {
+  border: 1px solidl $soft-gray-2;
 }

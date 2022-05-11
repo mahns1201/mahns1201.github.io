@@ -17,6 +17,13 @@ label {
   display: inline-block;
 }
 
+hr {
+  border: none;
+  height: 2px;
+  width: 100%;
+  background-color: $soft-gray-2;
+}
+
 h1 {
   font-size: 2rem;
   font-weight: 700;
@@ -27,7 +34,7 @@ h2 {
   font-size: 1.5rem;
   font-weight: 700;
   color: $blue;
-  margin: 0.75rem 0;
+  margin: 0 0 $gap-sm 0;
 }
 
 h3 {

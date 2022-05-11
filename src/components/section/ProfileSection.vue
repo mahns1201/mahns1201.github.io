@@ -1,7 +1,7 @@
 <template>
   <section class="profile">
     <div class="profile__container">
-      <img src="https://source.unsplash.com/random/250x250" alt="profile" />
+      <img src="@/assets/common/minhyeok.jpg" alt="profile" />
     </div>
     <div class="profile__description">
       <div class="devide">
@@ -21,13 +21,13 @@
 
         <div>
           <label class="label">Github</label>
-          <a href="https://github.com/mahns1201"
+          <a href="https://github.com/mahns1201" target="_blank"
             ><span>https://github.com/mahns1201</span></a
           >
         </div>
         <div>
           <label class="label">Blog</label>
-          <a href="https://velog.io/@mahns"
+          <a href="https://velog.io/@mahns" target="_blank"
             ><span>https://velog.io/@mahns</span></a
           >
         </div>

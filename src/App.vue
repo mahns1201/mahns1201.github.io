@@ -3,7 +3,7 @@
     <profile-section />
 
     <section>
-      <h2>Skills</h2>
+      <h2>Introduce</h2>
     </section>
 
     <section>

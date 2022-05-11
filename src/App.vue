@@ -1,16 +1,13 @@
 <template>
   <main class="adjustment adjustment-gap">
-    <profile-section class="section-border" />
-
+    <profile-section />
     <hr />
 
     <introduce-section />
-
     <hr />
 
-    <section>
-      <h2>Work Experiences</h2>
-    </section>
+    <works-section />
+    <hr />
 
     <section>
       <h2>Side Project</h2>
@@ -25,6 +22,7 @@
 <script>
 import ProfileSection from '@/components/section/ProfileSection';
 import IntroduceSection from '@/components/section/IntroduceSection';
+import WorksSection from '@/components/section/WorksSection';
 
 export default {
   name: 'App',
@@ -32,6 +30,7 @@ export default {
   components: {
     ProfileSection,
     IntroduceSection,
+    WorksSection,
   },
 
   methods: {

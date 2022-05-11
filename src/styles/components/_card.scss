@@ -1,0 +1,32 @@
+.card__works {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px -1px rgb(26 26 26 / 0.1),
+      0 2px 4px -2px rgb(26 26 26 / 0.1);
+  }
+
+  &:hover {
+    .card__works__title {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    img {
+      opacity: 15%;
+    }
+  }
+
+  .card__works__title {
+    display: none;
+  }
+}

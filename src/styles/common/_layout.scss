@@ -2,14 +2,14 @@
 
 // ~767px
 @mixin sm {
-  @media (max-width: #{$md - 1px}) {
+  @media (max-width: #{$md}) {
     @content;
   }
 }
 
 // 768px ~ 1023px
 @mixin md {
-  @media (min-width: #{$md}) and (max-width: #{$lg - 1px}) {
+  @media (min-width: #{$md}) and (max-width: #{$lg}) {
     @content;
   }
 }
@@ -23,7 +23,7 @@
 
 // 1024px ~ 1439px
 @mixin lg {
-  @media (min-width: #{$lg}) and (max-width: #{$xl - 1px}) {
+  @media (min-width: #{$lg}) and (max-width: #{$xl}) {
     @content;
   }
 }
@@ -37,7 +37,7 @@
 
 // 1440px ~ 1727px
 @mixin xl {
-  @media (min-width: #{$xl}) and (max-width: #{$xxl - 1px}) {
+  @media (min-width: #{$xl}) and (max-width: #{$xxl}) {
     @content;
   }
 }

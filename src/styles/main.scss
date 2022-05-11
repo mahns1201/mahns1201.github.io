@@ -4,14 +4,17 @@
 @import '@/styles/common/_adjustment';
 @import '@/styles/common/_common';
 
+// section
+@import '@/styles/section/_profile';
+
 // font
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
 
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Noto Sans KR', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $white;
   min-width: 12.5rem;
-  background-color: $black;
+  color: $black;
+  background-color: $white;
 }

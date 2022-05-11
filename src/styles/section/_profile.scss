@@ -1,0 +1,33 @@
+@import '@/styles/common/_variables';
+@import '@/styles/common/_layout';
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $gap-xs;
+
+  .profile__container {
+    width: 8.5rem;
+    height: 8.5rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+
+  .profile__description {
+    margin-top: $gap-xs;
+
+    label {
+      width: 5rem;
+    }
+
+    .devide {
+      margin: 1rem 0;
+    }
+  }
+}

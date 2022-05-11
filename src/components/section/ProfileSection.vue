@@ -19,6 +19,15 @@
       </div>
 
       <div class="devide">
+        <h4>Certification</h4>
+
+        <div><label class="label">Major</label><span>정보처리기사</span></div>
+        <div>
+          <label class="label">Other</label><span>한국사검정능력시험 1급</span>
+        </div>
+      </div>
+
+      <div class="devide">
         <h4>Chanel</h4>
 
         <div>

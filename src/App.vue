@@ -9,9 +9,7 @@
     <works-section />
     <hr />
 
-    <section>
-      <h2>Other Experiences</h2>
-    </section>
+    <experiences-section />
   </main>
 </template>
 
@@ -19,6 +17,7 @@
 import ProfileSection from '@/components/section/ProfileSection';
 import IntroduceSection from '@/components/section/IntroduceSection';
 import WorksSection from '@/components/section/WorksSection';
+import ExperiencesSection from '@/components/section/ExperiencesSection';
 
 export default {
   name: 'App',
@@ -27,6 +26,7 @@ export default {
     ProfileSection,
     IntroduceSection,
     WorksSection,
+    ExperiencesSection,
   },
 
   methods: {

@@ -6,7 +6,7 @@
 
     <div class="profile__banner"></div>
     <div class="profile__description">
-      <div class="devide">
+      <div class="divide">
         <h4>Contact</h4>
 
         <div>
@@ -18,7 +18,7 @@
         </div>
       </div>
 
-      <div class="devide">
+      <div class="divide">
         <h4>Certification</h4>
 
         <div><label class="label">Major</label><span>정보처리기사</span></div>
@@ -27,7 +27,7 @@
         </div>
       </div>
 
-      <div class="devide">
+      <div class="divide">
         <h4>Chanel</h4>
 
         <div>
@@ -44,7 +44,7 @@
         </div>
       </div>
 
-      <div class="devide">
+      <div class="divide">
         <h4>Skills</h4>
 
         <!-- basic -->

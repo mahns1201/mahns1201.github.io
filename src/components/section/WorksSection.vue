@@ -13,7 +13,7 @@
         Gyeongsang National University,
         <span class="font__gray">2015. 02. ~ 2021. 08.</span>
       </h5>
-      <div class="wroks__item">
+      <div class="works__item">
         <div class="works__container">
           <img src="@/assets/thumbnail/gardening.jpeg" alt="gardening" />
         </div>
@@ -55,7 +55,7 @@
 
       <hr class="works-hr" />
 
-      <div class="wroks__item">
+      <div class="works__item">
         <div class="works__container">
           <img src="@/assets/thumbnail/ponding.jpeg" alt="ponding" />
         </div>
@@ -102,7 +102,7 @@
     <div>
       <h5>Side Project</h5>
 
-      <div class="wroks__item">
+      <div class="works__item">
         <div class="works__container">
           <img src="@/assets/thumbnail/youtube.png" alt="youtube" />
         </div>

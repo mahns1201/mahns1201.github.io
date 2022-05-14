@@ -109,7 +109,7 @@
 
         <!-- VCS -->
         <div>
-          <h5>VSC</h5>
+          <h5>VCS</h5>
           <img
             src="https://img.shields.io/badge/-Git-white?style=flat&logo=git"
             alt="Git"

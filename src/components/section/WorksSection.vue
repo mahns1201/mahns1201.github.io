@@ -4,8 +4,52 @@
 
     <div>
       <h5>
-        Hobor Intelligence, <span class="font__gray">2021. 05. 10. ~ing</span>
+        Harbor Intelligence, <span class="font__gray">2021. 05. 10. ~ing</span>
       </h5>
+
+      <div class="works__item">
+        <div class="works__container">
+          <img src="@/assets/thumbnail/nft.jpg" alt="nft" />
+        </div>
+
+        <div class="works__description">
+          <div>
+            <label>Title</label>
+            <p>PARULA - NFT Market</p>
+          </div>
+
+          <div>
+            <label>Description</label>
+            <p>
+              NFT Market 프론트앤드 개발을 담당하였습니다. Vue.js를 사용하였고
+              AWS에 Serverless로 마이크로 서비스를 제작하였습니다. DB는 mySQL로
+              구성 되었습니다. 특히 담당 디자이너님과의 소통으로 UI/UX에도
+              신경을 써서 수차례 디자인을 수정한 기억이 많이 남습니다.
+            </p>
+          </div>
+
+          <div>
+            <label>Achieve</label>
+            <ul>
+              <li>구조화 작업으로 로딩 속도 10초 -> 1초로 단축</li>
+              <li>CSS, SCSS 스터디 하여 퍼블리싱 작업</li>
+              <li>DB 명세서를 그려 중복되거나 쓰이지 않는 테이블 수정</li>
+              <li>외부 투자 유치로 회사를 안양에서 강남으로 이전</li>
+            </ul>
+          </div>
+
+          <div>
+            <label>Deploy</label>
+            <p>
+              <a href="https://www.parula.io/" target="_blank"
+                ><span>https://www.parula.io/</span></a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="works-hr" />
     </div>
 
     <div>
@@ -13,6 +57,7 @@
         Gyeongsang National University,
         <span class="font__gray">2015. 02. ~ 2021. 08.</span>
       </h5>
+
       <div class="works__item">
         <div class="works__container">
           <img src="@/assets/thumbnail/gardening.jpeg" alt="gardening" />
@@ -117,8 +162,9 @@
             <label>Description</label>
             <p>
               유튜브 클론 코딩입니다. node.js로 벡앤드를 구성하였고 pug를
-              뷰템플릿으로 사용하였습니다. 서버 사이드 랜더링을 기반으로 하고
-              있고 SCSS로 퍼블리싱 작업을 하였습니다. 끝으로 해로쿠에
+              뷰템플릿으로 사용하였습니다. DB는 MongoDB로 구성되었습니다. 세션
+              DB를 두어 로그인을 구현하였고, 서버 사이드 랜더링을 기반으로 하고
+              있고 있습니다. SCSS로 퍼블리싱 작업을 하였습니다. 끝으로 해로쿠에
               배포하였습니다.
             </p>
           </div>

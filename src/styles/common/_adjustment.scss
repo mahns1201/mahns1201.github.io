@@ -3,7 +3,7 @@
 
 .adjustment {
   margin: auto;
-  padding-top: $gap;
+  padding: $gap 0;
 
   @include sm {
     width: 85%;

@@ -29,29 +29,29 @@ export default {
     AwardsSection,
   },
 
-  methods: {
-    click() {
-      console.log(this.$refs);
-    },
-  },
+  // methods: {
+  //   click() {
+  //     console.log(this.$refs);
+  //   },
+  // },
 };
 </script>
 
 <style lang="scss">
 @import '@/styles/main';
 
-.test {
-  overflow: hidden;
-  .layout {
-    display: flex;
-    overflow: hidden;
-    width: 300vw;
-    height: 100%;
+// .test {
+//   overflow: hidden;
+//   .layout {
+//     display: flex;
+//     overflow: hidden;
+//     width: 300vw;
+//     height: 100%;
 
-    .page {
-      width: 100vw;
-      float: left;
-    }
-  }
-}
+//     .page {
+//       width: 100vw;
+//       float: left;
+//     }
+//   }
+// }
 </style>

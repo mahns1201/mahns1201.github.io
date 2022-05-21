@@ -10,7 +10,8 @@
         <h4>Contact</h4>
 
         <div>
-          <label class="label">Name</label><span>서민혁, 팬을 잡는 개발자</span>
+          <label class="label">Name</label
+          ><span>서민혁, 쓰임새 있는 개발자</span>
         </div>
         <div><label class="label">Phone</label><span>010-5235-2562</span></div>
         <div>
